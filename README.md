@@ -3,6 +3,10 @@
 
 This is a collection of CloudFormation templates for launching containers in Fargate with a variety of different networking approaches. Fargate is designed to give you significant control over how the networking of your containers works, and these templates show how to host public facing containers, containers which are indirectly accessible to the public via a load balancer but hosted within a private network, and private containers that can not be accessed by the public.
 
+## Also see 
+
+<https://itnext.io/run-your-containers-on-aws-fargate-c2d4f6a47fda>
+
 ## Instructions
 
 ### 1. Choose a Fargate cluster networking stack:
